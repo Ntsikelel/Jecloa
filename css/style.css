@@ -60,26 +60,33 @@ h6 {
 	color: #1f1f1f;
 	margin: 0
 }
+
 h1 {
 	font-size: 24px
 }
+
 h2 {
 	font-size: 22px
 }
+
 h3 {
 	font-size: 18px
 }
+
 h4 {
 	font-size: 21px;
 	color: #07528d;
 	margin-top: 25px;
 }
+
 h5 {
 	font-size: 14px
 }
+
 h6 {
 	font-size: 13px
 }
+
 h1 a,
 h2 a,
 h3 a,
@@ -349,7 +356,7 @@ a:hover,a:focus {
 }
 
 a.join_bt {
-    background: lightskyblue;
+    background: darkorange;
     width: 180px;
     text-align: center;
     height: 38px;
@@ -388,12 +395,12 @@ a.join_bt:focus {
 }
 
 .logo_section {
-    /* width: 33.33%; */
+    width: 33.33%;
 }
 
 .top-header .navbar {
     padding: 0;
-    /* min-height: 60px; */
+    min-height: 60px;
     float: left;
 }
 
@@ -460,7 +467,7 @@ a.navbar-brand {
 
 .top-header.fixed-menu {
 	width: 100%;
-	/* position: fixed; */
+	position: fixed;
 	box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
@@ -470,6 +477,14 @@ a.navbar-brand {
 	animation-name: fadeInDown;
 	background: #fff;
 	z-index: 20;
+}
+
+.ul{
+	background-color: mediumblue;
+}
+
+.li{
+	background-color: mediumblue;
 }
 
 .header_bottom {
@@ -560,7 +575,7 @@ a.navbar-brand {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #111;
+    background: lightblue;
 }
 
 .search-txt {
@@ -594,12 +609,12 @@ a.navbar-brand {
 
 .menu_orange_section::after {
 
-    width: 70px;
+    width: 60px;
     height: 60px;
     position: relative;
     content: "";
     display: block;
-    background: lightskyblue;
+    background: black;
     left: -35px;
     transform: skew(30deg);
 
@@ -607,11 +622,11 @@ a.navbar-brand {
 
 .main_bt {
     width: 195px;
-    height: 55px;
+    height: 50px;
     float: left;
     text-align: center;
-    line-height: 55px;
-    border: solid lightskyblue 1px;
+    line-height: 50px;
+    border: solid black 1px;
     font-size: 18px;
     margin-top: 10px;
     background: #fff;
@@ -715,7 +730,7 @@ a.navbar-brand {
 }
 
 .pogoSlider-nav-btn--selected {
-	background: lightskyblue!important;
+	background: black!important;
 }
 
 .pogoSlider--navBottom .pogoSlider-nav {
@@ -838,13 +853,13 @@ a.navbar-brand {
 .inner_page_banner {
     float: left;
     width: 100%;
-    padding-top: 60px;
-    min-height: 240px;
-    background: #111;
+    padding-top: 40px;
+    min-height: 40px;
+    background: lightskyblue;
 }
 
 .about-box {
-	padding: 70px 0px;
+	padding: 80px 0px;
 }
 
 .title-box {
@@ -947,10 +962,10 @@ a.navbar-brand {
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
 	transform: perspective(1px) translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	box-shadow: 0 0 1px lightblue;
 	position: relative;
 	overflow: hidden;
-	background: #070500;
+	background: lightblue;
 	-webkit-transition-property: color;
 	transition-property: color;
 	-webkit-transition-duration: 0.3s;
@@ -1012,7 +1027,7 @@ a.hvr-radial-out:focus {
 }
 
 .service_blog:hover, .service_blog:focus {
-    box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 30px lightblue;
     transform: scale(1.02);
 }
 
@@ -1775,14 +1790,14 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-box {
-    background: #3a1e02;
+    background: lightskyblue;
     padding: 50px 0;
 }
 
 .footer-box .footer-company-name {
 	text-align: center;
 	margin: 0px;
-	color: #333;
+	color:orangered;
 	font-size: 13px;
 	font-weight: 400;
 	padding-top: 2px;
@@ -1790,7 +1805,7 @@ select.form-control:not([size]):not([multiple]) {
 
 footer.footer-box h3 {
     font-size: 30px;
-    border-bottom: solid lightskyblue 4px;
+    border-bottom: solid lightblue 4px;
     margin-bottom: 15px;
 }
 
@@ -1844,7 +1859,7 @@ footer.footer-box h3 {
 	border-radius: 0;
 	transition: .2s;
 	padding: 10px 18px;
-	background: #222;
+	background: orangered;
 	color: #ffffff;
 	border: none;
 	cursor: pointer;
@@ -2108,7 +2123,7 @@ ul.social_icon li {
 
 .footer_bottom {
 
-    background: #532a02;
+    background: black;
     padding: 0 0;
     width: 100%;
     min-height: 82px;
@@ -2157,7 +2172,7 @@ ul.social_icon li {
 }
 
 .newsletter_form button {
-    background: lightskyblue;
+    background: lightblue;
     color: #fff;
     border: none;
     font-size: 14px;
@@ -2309,7 +2324,7 @@ ul.bottom_menu li {
 }
 
 .contact_form {
-    background: url('https://images.unsplash.com/photo-1595012651352-9b39b99c341b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background: url('../images/contact_bg.png');
     background-size: cover;
     background-position: center center;
     min-height: 650px;
